@@ -1,0 +1,259 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.header-control{
+    background-color: #3F5C9A;
+    width: 100%;
+    height: 90px;
+
+}
+.contro-align{
+    width: 970px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-control{
+  float: left;  
+}
+
+.img-control img{
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+}
+.login{
+    float: right;
+    font-family: arial;
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+}
+.login p{
+    margin-left: 10px;
+}
+.inputtxt{
+    width: 150px;
+    height: 20px;
+    margin-left: 10px;
+}
+.btn{
+    color: white;
+    background-color: #2985b9;
+    font-family: arial;
+    padding: 05px; 05px; 05px; 05px;
+    border: none;
+    border-radius: 05px;
+    
+    margin: 5px;
+}
+.login  a{
+    color: white;
+       
+}
+
+/* Sign Up Area*/
+.signup{
+    background: linear-gradient(#e2d5d5, #eceff7);
+    
+
+}
+.left-area{
+    width: 55%;
+    float: left;
+}
+.left-area p{
+    color: #0e385f;
+    font-size: 33px;
+    font-weight: bolder;
+    line-height: 29px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+   
+}
+.left-area img{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.right-area{
+    float: left;
+    overflow: hidden;
+    width: 45%;
+}
+.right-area h1{
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: arial;
+}
+.right-area h3{
+    color: #1d2129;
+    font-size: 19px;
+    margin: 0;
+    font-weight: normal;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    border: 1px solid #bdc7dB;
+    padding: 8px 10px;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+.one-half{
+    overflow: hidden;
+}
+.half1{
+    width: 49%;
+    float: left;
+    margin-right: -23.5%;
+    margin-left: ;
+}
+.half2{
+    width: 49%;
+    margin-right: 15% 0;
+    overflow: hidden;
+    float: left;
+    
+}
+.birthday{
+    margin: 17px 0;
+    overflow: hidden;
+}
+.birthday h3{
+    margin-bottom: 6px;
+}
+.birth-select{
+    overflow: hidden;
+    width: 195px;
+    float: left;
+}
+.birth-select select{
+    border: 1px solid #e5e5e5;
+    padding: 4px;
+    float: left;
+
+}
+.birth-link{
+    overflow: hidden;
+
+}
+.birth-link a{
+    color: #365899;
+    font-size: 12px;
+    width: 150px;
+    display:block;
+}
+.gender{
+    margin-bottom: 12px;
+}
+.gender label{
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+.para p{
+    font-size: 14px;
+    width: 60%;
+    color: rgb(134, 133, 133);
+    margin-bottom: 15px;
+}
+.para p a{
+    text-decoration: none;
+}
+.submit-btn input{
+    background: linear-gradient(#67ae55, #578843);
+    font-size: 20px;
+    padding: 7px 20px;
+    text-align: center;
+    border-width: 1px;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-style: solid;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,5);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.submit-btn:hover input{
+    background: linear-gradient(#79bc64, #578843);
+    cursor: pointer;
+   
+}
+.right-area h4 a{
+    text-decoration: none;
+}
+.right-area h4{
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+
+/* Footer area design */
+.fb-footer{
+    margin: 30px 0px;
+}
+
+.fb-footer ul{
+    margin: 0;
+    padding: 0;
+}
+.fb-footer ul li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.fb-footer hr{
+    border: 0;
+    border-top: 1px solid #e5e5e5; 
+    margin: 10px 0;
+}
+.fb-footer ul li a{
+    text-decoration: none;
+    width: 8%;
+    display: inline-block;
+    line-height: .5;
+    font-size: 12px;
+    color: #365899;
+
+}
+.fb-footer ul li a:hover{
+    text-decoration: underline;
+}
+.top ul li:last-child a{
+    border: 2px solid #999;
+    width: 14px;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 5px;
+   background:#e5e5e5 ;
+   margin-bottom: 0px;
+}
+.top ul li{
+    margin-right: -20px;
+    display: inline;
+}
+.middle{
+    margin-bottom: 10px;
+    margin-right: -40px;
+  
+
+    
+}
+.fb-footer ul .active a{
+    color: #333;
+    margin-bottom: 10px;
+}
+.bottom h4{
+    font-weight: normal;
+    color: rgb(78, 76, 76);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
